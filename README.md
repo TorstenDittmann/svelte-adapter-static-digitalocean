@@ -20,18 +20,18 @@ Then add the adapter to your `svelte.config.js`:
 import adapter from 'svelte-adapter-static-digitalocean';
 
 export default {
-	kit: {
-		...
-		adapter: adapter({
+    kit: {
+        ...
+        adapter: adapter({
             // default options are shown
-			pages: 'build',
-			assets: 'build',
-			fallback: '404.html',
-			precompress: false,
+            pages: 'build',
+            assets: 'build',
+            fallback: '404.html',
+            precompress: false,
             spec: '.do/spec.yaml',
             name: ''
         })
-	}
+    }
 };
 ```
 
