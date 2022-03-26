@@ -1,5 +1,3 @@
-**⚠️ Warning! Sveltekit is still in Beta and the adapter API is changing regularly. This adapter extends the official @sveltejs/adapter-static and therefore should be updated at most times.**
-
 # Sveltekit Adapter
 
 Adapter for Svelte apps that extends the official [@sveltejs/adapter-static](https://github.com/sveltejs/kit/tree/master/packages/adapter-static) and does the following to support [DigitalOcean App Platform](https://www.digitalocean.com/products/app-platform) out-of-the-box.
