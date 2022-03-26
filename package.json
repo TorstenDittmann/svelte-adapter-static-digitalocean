@@ -1,0 +1,45 @@
+{
+  "name": "svelte-adapter-static-digitalocean",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "types": "index.d.ts",
+  "license": "ISC",
+  "dependencies": {
+    "@sveltejs/adapter-static": "1.0.0-next.29",
+    "yaml": "^1.10.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TorstenDittmann/svelte-adapter-static-digitalocean.git"
+  },
+  "keywords": [
+    "svelte",
+    "kit",
+    "adapter",
+    "digitalocean"
+  ],
+  "bugs": {
+    "url": "https://github.com/TorstenDittmann/svelte-adapter-static-digitalocean/issues"
+  },
+  "homepage": "https://github.com/TorstenDittmann/svelte-adapter-static-digitalocean#readme",
+  "author": {
+    "name": "Torsten Dittmann",
+    "email": "torsten@appwrite.io",
+    "url": "https://github.com/TorstenDittmann/"
+  },
+  "description": ""
+}

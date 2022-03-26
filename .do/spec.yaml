@@ -1,0 +1,17 @@
+alerts:
+- rule: DEPLOYMENT_FAILED
+- rule: DOMAIN_FAILED
+name: svelte-digitalocean-example
+region: fra
+static_sites:
+- build_command: npm run build
+  environment_slug: node-js
+  error_document: 404.html
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: TorstenDittmann/svelte-digitalocean-example
+  name: svelte-digitalocean-example
+  routes:
+  - path: /
+  source_dir: /
