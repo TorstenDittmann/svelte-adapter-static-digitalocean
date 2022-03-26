@@ -1,4 +1,4 @@
-# Sveltekit Adapter
+# svelte-adapter-static-digitalocean
 
 Adapter for Svelte apps that extends the official [@sveltejs/adapter-static](https://github.com/sveltejs/kit/tree/master/packages/adapter-static) and does the following to support [DigitalOcean App Platform](https://www.digitalocean.com/products/app-platform) out-of-the-box.
 
