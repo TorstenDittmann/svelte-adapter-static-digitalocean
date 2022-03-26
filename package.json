@@ -1,6 +1,7 @@
 {
   "name": "svelte-adapter-static-digitalocean",
-  "version": "0.0.1",
+  "description": "SvelteKit adapter for DigitalOcean App Platform static sites.",
+  "version": "0.0.2",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,7 +22,6 @@
   "directories": {
     "test": "test"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TorstenDittmann/svelte-adapter-static-digitalocean.git"
@@ -40,6 +40,5 @@
     "name": "Torsten Dittmann",
     "email": "torsten@appwrite.io",
     "url": "https://github.com/TorstenDittmann/"
-  },
-  "description": ""
+  }
 }
