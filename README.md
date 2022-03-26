@@ -36,4 +36,4 @@ export default {
 > Please check out the [@sveltejs/adapter-static](https://github.com/sveltejs/kit/tree/master/packages/adapter-static) readme for more options.
 
 ## Issues / Bugs
-Please report issues in the [Architect repository](https://github.com/architect/architect/issues).
+Please report issues in the [here](https://github.com/torstendittmann/svelte-adapter-static-digitalocean/issues).
