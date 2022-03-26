@@ -4,7 +4,7 @@
   "version": "0.0.2",
   "main": "index.js",
   "scripts": {
-    "test": "node test/index.js"
+    "test": "node test/test.js"
   },
   "type": "module",
   "exports": {
