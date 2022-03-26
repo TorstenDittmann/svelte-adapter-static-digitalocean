@@ -1,44 +1,44 @@
 {
-  "name": "svelte-adapter-static-digitalocean",
-  "description": "SvelteKit adapter for DigitalOcean App Platform static sites.",
-  "version": "0.0.3",
-  "main": "index.js",
-  "scripts": {
-    "test": "node test/test.js"
-  },
-  "type": "module",
-  "exports": {
-    ".": {
-      "import": "./index.js"
+    "name": "svelte-adapter-static-digitalocean",
+    "description": "SvelteKit adapter for DigitalOcean App Platform static sites.",
+    "version": "0.0.3",
+    "main": "index.js",
+    "scripts": {
+        "test": "node test/test.js"
     },
-    "./package.json": "./package.json"
-  },
-  "types": "index.d.ts",
-  "license": "ISC",
-  "dependencies": {
-    "@sveltejs/adapter-static": "1.0.0-next.29",
-    "yaml": "^1.10.2"
-  },
-  "directories": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TorstenDittmann/svelte-adapter-static-digitalocean.git"
-  },
-  "keywords": [
-    "svelte",
-    "kit",
-    "adapter",
-    "digitalocean"
-  ],
-  "bugs": {
-    "url": "https://github.com/TorstenDittmann/svelte-adapter-static-digitalocean/issues"
-  },
-  "homepage": "https://github.com/TorstenDittmann/svelte-adapter-static-digitalocean#readme",
-  "author": {
-    "name": "Torsten Dittmann",
-    "email": "torsten@appwrite.io",
-    "url": "https://github.com/TorstenDittmann/"
-  }
+    "type": "module",
+    "exports": {
+        ".": {
+            "import": "./index.js"
+        },
+        "./package.json": "./package.json"
+    },
+    "types": "index.d.ts",
+    "license": "ISC",
+    "dependencies": {
+        "@sveltejs/adapter-static": "1.0.0-next.29",
+        "yaml": "^1.10.2"
+    },
+    "directories": {
+        "test": "test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/TorstenDittmann/svelte-adapter-static-digitalocean.git"
+    },
+    "keywords": [
+        "svelte",
+        "kit",
+        "adapter",
+        "digitalocean"
+    ],
+    "bugs": {
+        "url": "https://github.com/TorstenDittmann/svelte-adapter-static-digitalocean/issues"
+    },
+    "homepage": "https://github.com/TorstenDittmann/svelte-adapter-static-digitalocean#readme",
+    "author": {
+        "name": "Torsten Dittmann",
+        "email": "torsten@appwrite.io",
+        "url": "https://github.com/TorstenDittmann/"
+    }
 }
