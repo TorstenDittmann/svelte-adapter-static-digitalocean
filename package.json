@@ -1,7 +1,7 @@
 {
     "name": "svelte-adapter-static-digitalocean",
     "description": "SvelteKit adapter for DigitalOcean App Platform static sites.",
-    "version": "0.0.9",
+    "version": "0.0.10",
     "main": "index.js",
     "scripts": {
         "test": "node test/test.js"
@@ -16,7 +16,7 @@
     "types": "index.d.ts",
     "license": "ISC",
     "dependencies": {
-        "@sveltejs/adapter-static": "1.0.0-next.34",
+        "@sveltejs/adapter-static": "1.0.0-next.41",
         "yaml": "^2.1.1"
     },
     "directories": {
