@@ -10,4 +10,5 @@ interface AdapterOptions {
 }
 
 declare function plugin(options?: AdapterOptions): Adapter;
+
 export = plugin;
