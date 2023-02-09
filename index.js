@@ -8,6 +8,7 @@ export default function ({
     assets = pages,
     fallback = "404.html",
     precompress = false,
+    strict = true,
     spec = ".do/spec.yaml",
     name = "",
 } = {}) {
@@ -57,6 +58,7 @@ export default function ({
             pages,
             assets,
             fallback,
+            strict,
             precompress,
         }),
         name: "svelte-adatpter-static-digitalocean",
