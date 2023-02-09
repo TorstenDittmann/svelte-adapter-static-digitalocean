@@ -26,11 +26,19 @@ export default {
             assets: 'build',
             fallback: '404.html',
             precompress: false,
+            strict: true,
             spec: '.do/spec.yaml',
             name: ''
         })
     }
 };
+```
+
+...and add the prerender option to your root layout (`src/routes/+layout.js|ts`):
+
+```js
+// This can be false if you're using a fallback (i.e. SPA mode)
+export const prerender = true;
 ```
 
 > Please check out the [@sveltejs/adapter-static](https://github.com/sveltejs/kit/tree/master/packages/adapter-static) readme for more options.
